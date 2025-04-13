@@ -37,7 +37,7 @@ A dynamic and interactive Pokemon battle game built with React and Chakra UI. Ch
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pokemon-battle-game.git
+git clone https://github.com/Ayush-B1/pokemon-battle-game.git
 ```
 
 2. Install dependencies:

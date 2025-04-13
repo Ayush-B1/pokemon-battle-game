@@ -280,8 +280,10 @@ const PokemonGame = () => {
       bgImage="url('/images/kanto-map.png')"
       bgPosition="center"
       bgRepeat="no-repeat"
-      bgSize="cover"
+      bgSize="100% 100%"
       bgAttachment="fixed"
+      margin={0}
+      padding={0}
     >
       {/* Overlay for better readability */}
       <Box
@@ -292,6 +294,8 @@ const PokemonGame = () => {
         bottom={0}
         bgGradient="linear(to-b, rgba(0,0,0,0.8), rgba(0,0,0,0.7))"
         zIndex={1}
+        margin={0}
+        padding={0}
       />
 
       {/* Main Content */}
@@ -299,11 +303,14 @@ const PokemonGame = () => {
         position="relative"
         zIndex={2}
         minH="100vh"
+        w="100%"
         display="flex"
         flexDirection="column"
         alignItems="center"
         justifyContent="center"
         py={8}
+        margin={0}
+        padding={0}
       >
         <Center width="100%" height="100%">
           <Box 

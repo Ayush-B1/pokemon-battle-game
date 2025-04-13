@@ -1,4 +1,4 @@
-import { ChakraProvider, Container, Box, Center } from '@chakra-ui/react';
+import { ChakraProvider, Container, Box } from '@chakra-ui/react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import PokemonGame from './components/PokemonGame';
 
